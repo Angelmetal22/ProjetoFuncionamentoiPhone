@@ -1,0 +1,19 @@
+git remote add origin
+
+g
+
+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
+
+git remote  add origin https://github.com/Angelmetal22/FuncionalidadeiPhone.git
+
+
+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
+
+
+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 
+
+
+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
+
+novo
+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

@@ -1,0 +1,36 @@
+Código Java para representar essas classes e 
+
+
+interfaces:
+// Interface para o Reprodutor Musical
+interface ReprodutorMusical {
+    void play();
+}
+
+// Interface para o Aparelho Telefônico
+interface AparelhoTelefonico {
+    void call();
+}
+
+// Interface para o Navegador na Internet
+interface NavegadorInternet {
+    void browse();
+}
+
+// Classe que representa o iPhone e implementa as interfaces
+class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
+    @Override
+    public void play() {
+        // Implementação da reprodução de música
+    }
+
+    @Override
+    public void call() {
+        // Implementação da realização de chamadas telefônicas
+    }
+
+    @Override
+    public void browse() {
+        // Implementação da navegação na Internet
+    }
+}

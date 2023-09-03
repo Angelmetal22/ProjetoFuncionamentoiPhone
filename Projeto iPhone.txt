@@ -1,0 +1,55 @@
+    ReprodutorMusical.java (Interface)
+
+java
+
+public interface ReprodutorMusical {
+    void play();
+}
+
+    AparelhoTelefonico.java (Interface)
+
+java
+
+public interface AparelhoTelefonico {
+    void call();
+}
+
+    NavegadorInternet.java (Interface)
+
+java
+
+==========================================================
+public interface NavegadorInternet {
+    void browse();
+}
+
+    iPhone.java (Classe que implementa as interfaces)
+
+java
+
+public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
+    @Override
+    public void play() {
+        // Implementação da reprodução de música
+        System.out.println("Reproduzindo música...");
+    }
+
+    @Override
+    public void call() {
+        // Implementação da realização de chamadas telefônicas
+        System.out.println("Fazendo uma chamada telefônica...");
+    }
+
+    @Override
+    public void browse() {
+        // Implementação da navegação na Internet
+        System.out.println("Navegando na Internet...");
+    }
+
+    public static void main(String[] args) {
+        iPhone myiPhone = new iPhone();
+        myiPhone.play();
+        myiPhone.call();
+        myiPhone.browse();
+    }
+}
